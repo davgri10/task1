@@ -3,7 +3,7 @@ version: '2'
 services:
    
     logic-test-kiwi:
-        image: davgri/logic-test-kiwi-armhf-v:0.0.6
+        image: davgri/logic-test-kiwi-armhf-v:0.0.8
         network_mode: "host"
-        command: "/usr/bin/opendlv-logic-test-kiwi --cid=112 --freq=10 --frame-id=0"
+        command: "/usr/bin/opendlv-logic-test-kiwi --cid=112 --freq=10 --frame-id=0 --A=1 --B=1 --C=1 --D=1 --E=0"
 
